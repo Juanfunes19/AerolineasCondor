@@ -3,12 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// IMPORTANDO BOOTSTRAP
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/js/bootstrap.bundle.min"
+import ContextApp from './store/Context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <ContextApp>
   <React.StrictMode>
     <App />
   </React.StrictMode>
+  </ContextApp>
 );
 
 // If you want to start measuring performance in your app, pass a function

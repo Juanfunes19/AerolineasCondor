@@ -1,0 +1,1 @@
+export const baseUrl = "https://proyectofinal1996.herokuapp.com"

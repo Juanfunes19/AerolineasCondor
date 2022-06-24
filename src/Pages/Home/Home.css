@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.home-div{
+    padding-top: 5em;
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    flex-direction: column;
+    width: 100vh;
+    height: 100vh;
+    background-color: white;
+}
+
+.imagen_fondo{
+    width: 100%;
+}
+
+
+.container-fluid2{
+    height: 800px ;
+    width: 100%;
+    background-image: url("imagen_fondo2.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.titulos{
+    padding-top: 10em;
+}
+.titulo-principal{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.parrafo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}

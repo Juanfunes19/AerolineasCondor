@@ -1,0 +1,20 @@
+.div-register2{
+    padding-top: 5em;
+    height: 40em ;
+    width: 100%;
+    background-size: cover;
+    background-position: center right;
+    padding-top: 9em;
+    background-image: url("register.png");
+    background-color: #2457a0;
+}
+
+.contenedorRegister{
+    padding: 3em;
+}
+
+@media (max-width: 768px) {
+    .contenedorRegister{
+    background-color: #f1faeeb9;
+    }
+}

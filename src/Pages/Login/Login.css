@@ -1,0 +1,20 @@
+.div-login{
+    padding-top: 5em;
+    height: 650px ;
+    width: 100%;
+    background-image: url("login.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 9em;
+}
+
+.contenedorLogin{
+    background-color: #7c808573;
+    padding: 3em;
+}
+.div-register{
+    margin-bottom: -2em;
+}
+.text-register{
+    margin-bottom: -3em;
+}
