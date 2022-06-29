@@ -11,6 +11,10 @@ import Register from "./Pages/Register/Register";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import Admin from "./Pages/Admin"
 import Contacto from "./Pages/Contacto/Contacto";
+import Reserva from "./Pages/Reserva/Reserva";
+import Vuelos from "./Pages/Vuelos";
+import Imagenes from "./Pages/ImagenesAWS/Imagenes";
+import EnvioImg from "./Pages/EnvioImg/EnvioImg";
 
 
 
@@ -23,11 +27,17 @@ function App() {
       <Nav />
     <Routes>
       <Route path="/" element={<Home />}/>
+
+      <Route path="/imagenes" element={<Imagenes />}/>
+      <Route path="/img" element={<EnvioImg />}/>
+
+      <Route path="/vuelos" element={<Vuelos />}/>
       <Route path="/vuelos/:id" element={<VuelosId />}/>
       <Route path="/login" element={user.usuario !== '' ? <Home /> : <Login/> }/>
       <Route path="/register" element={user.usuario !== '' ? <Home /> : <Register />} />
-      <Route path="/admin" element={< Admin/>}/>
-      <Route path="/admin/:id" element={<Dashboard />}/>
+      <Route path="/admin" element={user.type !== 'admin' ? <Home /> : <Admin/>}/>
+      <Route path="/admin/:id" element={user.type !== 'admin' ? <Home /> : <Dashboard />}/>
+      <Route path="/reserva" element={user.usuario === '' ? <Login /> : <Reserva />} />
       <Route path="/contacto" element={< Contacto/>}/>
       <Route  path="*" element={<Error404 />} />
     </Routes>

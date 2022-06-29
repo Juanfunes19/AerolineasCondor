@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .navbar{
     background-color: #e3edeea6;
     backdrop-filter: blur(2px);
@@ -14,6 +21,9 @@ align-items: flex-end;
 .navbar-brand-movil{
     display: none;
 }
+.navbar-collapse{
+    width: 53em;
+}
 .navbar-nav{
     display: flex;
     justify-content: space-between;
@@ -24,9 +34,10 @@ align-items: flex-end;
     padding: auto;
     text-transform: uppercase;
     margin: 0 .5em;
+    font-size: .9em;
 }
 .navbar-nav a:hover{
-    color: #E53945;
+    color: #1BB891;
     transition: .5s;
 }
 .navbar-nav .nav-contacto{
@@ -52,7 +63,7 @@ align-items: flex-end;
 }
 .logout{
     border:  0px;
-    background-color: #e3edeea6;
+    background-color: #e3edee13;
     color: #457B9D;
     font-weight: 700;
     text-transform: uppercase;

@@ -1,16 +1,22 @@
 import { useContext, useEffect, useState} from "react";
 import {Context} from "../../store/Context";
-import {Link, useParams} from "react-router-dom"
+import {useNavigate, useParams} from "react-router-dom"
 import "./Dashboard.css"
 import axios from "axios";
 import { baseUrl } from '../../Utils/utils'
 import Loading  from "../../Components/Loading"
 import moment from "moment";
 import 'moment/locale/es';
+import Swal from 'sweetalert2'
+
+
 
 
 const Dashboard = () => {
   const {destino, setDestino,fecha, setFecha, origen, setOrigen, descripcion, setDescripcion, precio, setPrecio, loading, setLoading} = useContext(Context)
+      // redireccion
+      const navigate = useNavigate()
+
 
   const {id} = useParams()
   const [vuelosId, setVuelosId] = useState({})
@@ -44,6 +50,7 @@ const Dashboard = () => {
   const response = await axios.put(`https://proyectofinal1996.herokuapp.com/vuelos/${id}`, infoVueloUp)
   const logged  = await response.data
   console.log(logged)
+  getVuelo()
   }
 
 
@@ -57,6 +64,19 @@ const Dashboard = () => {
   const response = await axios.delete(`https://proyectofinal1996.herokuapp.com/vuelos/${id}`)
   const logged  = await response.data
   console.log(logged)
+
+  if(logged.error){ 
+    Swal.fire({
+    icon: 'error',
+    title: logged.msg
+    })
+}else{
+    Swal.fire({
+        icon: 'success',
+        title: logged.status
+    })
+    navigate('/admin')
+}
   }
 
 
@@ -113,7 +133,7 @@ const Dashboard = () => {
         </form>
 
         <form className="row d-flex justify-content-center align-items-center flex-column col-12 mt-5 container " onSubmit={handleSubmitDelete}>
-          <h1 className="col-12 d-flex justify-content-center title-vuelos">ELIMINACIÓN DE VUELOS</h1>
+          <h1 className="col-12 d-flex justify-content-center title-vuelos">ELIMINACIÓN DE VUELO</h1>
           <button type="submit" className="btn btn-primary col-8 mb-3 w-100 ">Eliminar Vuelo</button>
         </form>
     </div>   

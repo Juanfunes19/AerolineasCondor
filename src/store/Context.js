@@ -14,7 +14,8 @@ const ContextApp = ({children}) => {
     // Para validacion de usuario
     const [user, setUser] = useState({
         usuario: "",
-        id: ""
+        id: "",
+        type: ""
     })
 
     // Estados admin

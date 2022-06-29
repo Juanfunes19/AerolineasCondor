@@ -40,7 +40,10 @@ const Prueba = () => {
           <p>{moment(vuelos.fecha).format('LLL')}</p>
           <p>{vuelos.precio}</p>
           <p>{vuelos.descripcion}</p>
-          <Link to="/"><button className='btn btn-primary d-block'>Volver</button></Link>
+          <div className="d-flex ">
+            <Link to="/"><button className='btn btn-primary d-block me-1'>Volver</button></Link>
+            <Link to="/reserva"><button className='btn btn-primary d-block ms-1'>Reservar</button></Link>
+          </div>
         </div>
       }
     </>

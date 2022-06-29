@@ -41,10 +41,11 @@ const Admin = () => {
     const response = await axios.post("https://proyectofinal1996.herokuapp.com/vuelos", infoVuelo)
     const logged  = await response.data
     console.log(logged)
+    obtenerData()
     }
 
     
-
+    // OBTENER TODOS LOS VUELOS
   const obtenerData = async () => {
     const response = await axios.get(`${baseUrl}/vuelos`)
     const allVuelos = await response.data.vuelos
@@ -70,6 +71,7 @@ const Admin = () => {
     const response = await axios.post("https://proyectofinal1996.herokuapp.com/createadmin", infoAdmin)
     const logged  = await response.data
     console.log(logged)
+    obtenerDataAdmin()
 
     if(logged.error){ 
       Swal.fire({
@@ -173,7 +175,7 @@ const Admin = () => {
             <div className="mb-3 col-8 w-100">
                 <input type="password" className="form-control" value={passAdmin} onChange={e => setPassAdmin(e.target.value)} placeholder="Contraseña"/>
             </div>
-            <button type="submit" className="btn btn-primary col-8 mb-3 w-100 ">Crear Vuelo</button>
+            <button type="submit" className="btn btn-primary col-8 mb-3 w-100 ">Crear administrador</button>
         </form>
 
 

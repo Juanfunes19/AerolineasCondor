@@ -1,7 +1,48 @@
 .div-footer{
-    background-color: #e3edee;
+    background-color: #efebe1;
     height: auto;
 }
 .datafiscal{
     width: .2em;
+}
+.div-new{
+    background-color: #e3edee;
+}
+.aqui{
+    text-decoration: none;
+}
+.reclamos-movil{
+    display: none;
+}
+
+
+@media (min-width: 800px){
+    .footer-redes{
+        padding-top: 3em;
+    }
+}
+@media (max-width: 767px){
+    .div-legales{
+        padding-top: 1em;
+    }
+    .aqui{
+        display: none;
+    }
+    .reclamos-movil{
+        margin-top: -2em;
+        display: flex;
+        text-decoration: none;
+    }
+    .footer-redes{
+        padding-top: -5em;
+    }
+
+}
+@media (max-width: 576px){
+    .button-newletter{
+        margin-right: 2px;
+    }
+}
+.reclamos{
+    color: #016381;
 }

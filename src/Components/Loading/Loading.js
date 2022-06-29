@@ -2,9 +2,9 @@ import "./Loading.css"
 
 const Loading = () => {
   return (
-    <div className="loading container">
-        <div class="spinner-border text-info mb-3" role="status">
-            <span class="visually-hidden">Loading...</span>
+    <div className="loading text-center">
+        <div className="spinner-border text-info d-flex justify-content-center " >
+            <span className="visually-hidden">Loading...</span>
         </div>
             Loading...
     </div>

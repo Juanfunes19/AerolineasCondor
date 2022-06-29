@@ -41,11 +41,13 @@ const Login = () => {
             setUsuario("")
             setPass("")
         }else{
-            navigate('/')
             setUser({
                 usuario: logged.user.email ,
-                id: logged.user.id
+                id: logged.user.id,
+                type: logged.user.type
             })
+            navigate(user.type === "admin" ? "/admin" : "/")
+            console.log(user)
             Swal.fire({
                 icon: 'success',
                 text: logged.msg
@@ -58,12 +60,12 @@ const Login = () => {
 
 
 
-
     return (
-    <div className="div-login">
+    <>
     {
         loading2 ? Loading() : ""
     }
+        <div className="div-login">
     <div className="contenedorLogin d-flex justify-content-center container col-11 col-sm-9 col-md-8 col-lg-6">
         <form className="row d-flex justify-content-center align-items-center flex-column col-12" onSubmit={handleSubmit}>
             <div className="mb-3 col-12">
@@ -79,6 +81,8 @@ const Login = () => {
         </form>
     </div>
     </div>
+    </>
+
     )
 }
 
