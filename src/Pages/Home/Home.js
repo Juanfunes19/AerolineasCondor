@@ -29,7 +29,7 @@ const Home = () => {
       obtenerData()
     }, [])
 
-
+    console.log(vuelos)
   return (
     <>
 
@@ -135,6 +135,7 @@ const Home = () => {
           <p className="col-2 justify-content-center d-flex"> {vuelo.destino} </p>
           <p className="col-3 justify-content-center d-flex"> {moment(vuelo.fecha).format('LLL')}</p>
           <p className="col-2 justify-content-center d-flex"> ${vuelo.precio} </p>
+          <img src={`${baseUrl}/vuelos/img/${vuelo.imagen}`} />
           <div className="col-3 justify-content-center d-flex">
           <Link to={`/vuelos/${vuelo.id}`}><button className="m-1">Ver mas información</button></Link>
           </div>
