@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/AerolineasCondor/static/css/main.3bee3e69.css",
-    "main.js": "/AerolineasCondor/static/js/main.f4b92af2.js",
+    "main.css": "/AerolineasCondor/static/css/main.570ee908.css",
+    "main.js": "/AerolineasCondor/static/js/main.d4f40387.js",
     "static/js/787.28cb0dcd.chunk.js": "/AerolineasCondor/static/js/787.28cb0dcd.chunk.js",
-    "static/media/login.png": "/AerolineasCondor/static/media/login.893c46c872b1296eadf2.png",
-    "static/media/register.png": "/AerolineasCondor/static/media/register.9558612d2eb4995fae21.png",
+    "static/media/santa-jujuy.png": "/AerolineasCondor/static/media/santa-jujuy.15bcc998ff947a615054.png",
+    "static/media/bs-salta.png": "/AerolineasCondor/static/media/bs-salta.81e14db88e897205dd5b.png",
+    "static/media/bs-cordoba.png": "/AerolineasCondor/static/media/bs-cordoba.81e3850f57db5c8e80bc.png",
+    "static/media/mendoza-tucuman.png": "/AerolineasCondor/static/media/mendoza-tucuman.863c998a3c8ab9448161.png",
     "static/media/error404.jpg": "/AerolineasCondor/static/media/error404.4c2b82cd37badd30254a.jpg",
+    "static/media/login.png": "/AerolineasCondor/static/media/login.82ea06f2ab585c180e0e.png",
+    "static/media/register.png": "/AerolineasCondor/static/media/register.ec933bb2165557ad51cc.png",
     "static/media/imagen_fondo2.png": "/AerolineasCondor/static/media/imagen_fondo2.f016ba54623bc72f0aec.png",
+    "static/media/salta.jpg": "/AerolineasCondor/static/media/salta.0473b028c7880d2e088f.jpg",
     "index.html": "/AerolineasCondor/index.html",
-    "main.3bee3e69.css.map": "/AerolineasCondor/static/css/main.3bee3e69.css.map",
-    "main.f4b92af2.js.map": "/AerolineasCondor/static/js/main.f4b92af2.js.map",
+    "main.570ee908.css.map": "/AerolineasCondor/static/css/main.570ee908.css.map",
+    "main.d4f40387.js.map": "/AerolineasCondor/static/js/main.d4f40387.js.map",
     "787.28cb0dcd.chunk.js.map": "/AerolineasCondor/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bee3e69.css",
-    "static/js/main.f4b92af2.js"
+    "static/css/main.570ee908.css",
+    "static/js/main.d4f40387.js"
   ]
 }
