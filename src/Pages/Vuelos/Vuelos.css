@@ -1,0 +1,23 @@
+.container-img{
+    width: 10em;
+}
+.info-vuelo{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    padding-right: 5px;
+}
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.button-vuelos{
+    background-color: #2955CC;
+    color: white;
+    text-decoration: none;
+}
+.button-vuelos:hover{
+    color: white;
+    background-color: #2631b8;
+}

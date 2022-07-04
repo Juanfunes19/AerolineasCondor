@@ -7,7 +7,7 @@ const Error404 = () => {
   return (
     <div className="div-error d-flex flex-column justify-content-center align-items-center">
       <img src={error} alt="error 404" className='error' />
-      <Link to="/" className="pb-5"><button className="btn btn-primary">Volver al Inicio</button></Link>
+      <Link to="/" className="pb-5"><button className="btn boton-regreso">VOLVER A HOME</button></Link>
     </div>
   )
 }

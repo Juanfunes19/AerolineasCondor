@@ -4,3 +4,16 @@
 .textarea{
     resize: none;
 }
+.div-contacto{
+    padding-top: 5em;
+    height: 650px ;
+    width: 100%;
+    background-image: url("contacto.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 9em;
+}
+.contenedor-contacto{
+    background-color: #7c808573;
+    padding: 1em;
+}

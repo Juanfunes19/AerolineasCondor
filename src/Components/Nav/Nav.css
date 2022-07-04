@@ -30,18 +30,18 @@ align-items: flex-end;
     align-items: flex-end;
 }
 .navbar-nav a{
-    color: #457B9D;
+    color: #336aff;
     padding: auto;
     text-transform: uppercase;
     margin: 0 .5em;
     font-size: .9em;
 }
 .navbar-nav a:hover{
-    color: #1BB891;
-    transition: .5s;
+    color:#2631b8;
+    transition: .2s;
 }
 .navbar-nav .nav-contacto{
-    color: #457B9D;
+    color: #2955CC;
     font-weight: 700;
 }
 
@@ -49,22 +49,22 @@ align-items: flex-end;
     white-space: nowrap;
 }
 .navbar-toggler{
-    border: 1px solid #457B9D;
+    border: 1px solid #2955CC;
 }
 .navbar-toggler:hover{
-    border: 1px solid #457B9D;
+    border: 1px solid #2955CC;
 }
 .bi-list{
-    color: #457B9D;
+    color: #2955CC;
 }
 .bi-list:hover{
-    color: #457B9D;
+    color: #2955CC;
     border: none;
 }
 .logout{
     border:  0px;
     background-color: #e3edee13;
-    color: #457B9D;
+    color: #2955CC;
     font-weight: 700;
     text-transform: uppercase;
 }

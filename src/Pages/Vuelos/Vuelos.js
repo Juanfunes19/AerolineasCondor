@@ -30,35 +30,35 @@ return (
         loading ? Loading() : ""
     }
     <div className="container home-div">
-        <h4 className="text-center mb-5">VUELOS</h4>
+        <h4 className="text-center title pt-5">VUELOS NACIONALES</h4>
         <div className="row">
-        <hr></hr>
-            <p className="col-2 justify-content-center d-flex categorias">ORIGEN</p>
-            <p className="col-2 justify-content-center d-flex categorias">DESTINO</p>
-            <p className="col-3 justify-content-center d-flex categorias">FECHA</p>
-            <p className="col-2 justify-content-center d-flex categorias">PRECIO</p>
-            <p className="col-3 justify-content-center d-flex categorias">ACCIONES</p>
-        <hr></hr>
     </div>
-    {/* vuelos.length > 0 ? */}
-        {
+    
+    <div className="fila row  ">
+        { vuelos.length > 0 ? 
         vuelos.map(vuelo =>(
-            <div key={vuelo.id}>
-            <div className="row">
-            <p className="col-2 justify-content-center d-flex"> {vuelo.origen} </p>
-            <p className="col-2 justify-content-center d-flex"> {vuelo.destino} </p>
-            <p className="col-3 justify-content-center d-flex"> {moment(vuelo.fecha).format('LLL')}</p>
-            <p className="col-2 justify-content-center d-flex"> ${vuelo.precio} </p>
-            <div className="col-3 justify-content-center d-flex">
-            <Link to={`/vuelos/${vuelo.id}`}><button className="m-1">Ver mas información</button></Link>
-            </div>
-            <hr></hr>
-            </div>
-
+            <div key={vuelo.id} className="col-12 col-lg-6 text-center mb-5">
+                <div className="row border p-4 ">
+                    <div className="col-6  ">
+                    <div className="d-flex flex-column align-items-center">
+                        <p className="col-12 justify-content-center d-flex "> <p className="info-vuelo">Origen:  </p>  {vuelo.origen} </p>
+                        <p className="col-12 justify-content-center d-flex">  <p className="info-vuelo">Destino: </p> {vuelo.destino} </p>
+                        <p className="col-12 justify-content-center d-flex"> <p className="info-vuelo">Fecha: </p>  {moment(vuelo.fecha).format('LLL')}</p>
+                        <p className="col-12 justify-content-center d-flex"> <p className="info-vuelo">Precio: </p> ${vuelo.precio} </p>
+                        <div className="col-12 justify-content-center d-flex">
+                            <Link to={`/vuelos/${vuelo.id}`}><button className="m-1 btn button-vuelos">Ver mas</button></Link>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="col-4 col-lg-6  ">
+                        <img src={`${baseUrl}/vuelos/img/${vuelo.imagen}`}  className="container-img"/>
+                    </div>
+                </div>
         </div>
         )) 
-        // : <p>NO HAY VUELOS</p>
+        : <p>NO HAY VUELOS</p>
     }
+    </div>
     </div>
     </>
     )

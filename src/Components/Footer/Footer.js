@@ -48,7 +48,7 @@ const Footer = () => {
                 <div className="col-7">
                   <input type="email"  className="form-control" value={mail} onChange={e => setMail(e.target.value)} placeholder="Ingresá tu email"/>
                 </div>
-                <button type="submit" className="btn btn-primary col-4 mb-3 col-sm-5 button-newletter ">Enviar</button>
+                <button type="submit" className="btn col-4 mb-3 col-sm-5 button-newletter textbutton-footer">ENVIAR</button>
               </div>
           </form>
         </div>

@@ -30,7 +30,7 @@ return (
         </div>    
         <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
             <div className="navbar-nav px-1 d-flex align-items-end">
-                <Link  to="/" className="nav-link active" >Inicio</Link>
+                <Link  to="/" className="nav-link active" >Home</Link>
                 <Link to="/vuelos"  className="nav-link sobre-mi active" >Vuelos</Link>
                 {
                     user.type !== 'admin' ? <Link to="/reserva"  className="nav-link sobre-mi active" >Reserva</Link> :

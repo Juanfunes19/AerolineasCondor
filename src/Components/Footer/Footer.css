@@ -1,18 +1,29 @@
 .div-footer{
-    background-color: #efebe1;
+    background-color: #e5ecff;
     height: auto;
 }
 .datafiscal{
     width: .2em;
 }
 .div-new{
-    background-color: #e3edee;
+    background-color: #e5ecff;
 }
 .aqui{
     text-decoration: none;
 }
 .reclamos-movil{
     display: none;
+}
+
+.textbutton-footer{
+    background-color: #2955CC;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.textbutton-footer:hover{
+    color: white;
+    background-color: #2631b8;
 }
 
 

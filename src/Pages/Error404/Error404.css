@@ -2,3 +2,11 @@
 .error{
     width: 60%;
 }
+.boton-regreso{
+    background-color: #2955CC;
+    color: white;
+}
+.boton-regreso:hover{
+    color: white;
+    background-color: #2631b8;
+}

@@ -76,7 +76,7 @@ const Login = () => {
             </div>
             <button type="submit" className="btn btn-primary col-12 mb-3 ">Iniciar sesion</button>
             <div className="d-flex justify-content-center d-flex flex-column justify-content-center flex-sm-row align-items-center div-register">
-                <p className="pt-3 ">¿No estás registrado?</p><Link to="/register"> Crea una cuenta</Link>
+                <p className="pt-3 registro-next ">¿No estás registrado?</p><Link to="/register" className="registro-next-a"> Crea una cuenta</Link>
             </div>
         </form>
     </div>

@@ -27,10 +27,6 @@ function App() {
       <Nav />
     <Routes>
       <Route path="/" element={<Home />}/>
-
-      <Route path="/imagenes" element={<Imagenes />}/>
-      <Route path="/img" element={<EnvioImg />}/>
-
       <Route path="/vuelos" element={<Vuelos />}/>
       <Route path="/vuelos/:id" element={<VuelosId />}/>
       <Route path="/login" element={user.usuario !== '' ? <Home /> : <Login/> }/>

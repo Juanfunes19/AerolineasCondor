@@ -38,13 +38,16 @@ const ContextApp = ({children}) => {
     const [loading, setLoading] = useState(true)
     const [loading2, setLoading2] = useState(false)
 
+    const [reserva, setReserva] = useState([])
+
+
     return (
     <Context.Provider value={{usuario, setUsuario,
     pass, setPass, nameRegister , setNameRegister, user, setUser,
     destino, setDestino,fecha, setFecha, origen, setOrigen, descripcion, setDescripcion,
     precio, setPrecio, idVuelo, setIdVuelo, destinoUp, setDestinoUp ,fechaUp,
     setFechaUp, origenUp, setOrigenUp, descripcionUp, setDescripcionUp,
-    precioUp, setPrecioUp, idVueloUp, setIdVueloUp, vuelos, setVuelos, loading, setLoading, loading2, setLoading2}}>
+    precioUp, setPrecioUp, idVueloUp, setIdVueloUp, vuelos, setVuelos, loading, setLoading, loading2, setLoading2, reserva, setReserva}}>
         {children}
     </Context.Provider>
     )

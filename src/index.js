@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 // IMPORTANDO BOOTSTRAP
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import "bootstrap/dist/js/bootstrap.bundle.min"
+import "bootstrap/dist/js/bootstrap.min.js";
 import ContextApp from './store/Context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
