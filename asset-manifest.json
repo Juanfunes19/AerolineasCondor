@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/AerolineasCondor/static/css/main.570ee908.css",
-    "main.js": "/AerolineasCondor/static/js/main.d4f40387.js",
+    "main.css": "/AerolineasCondor/static/css/main.6f727142.css",
+    "main.js": "/AerolineasCondor/static/js/main.ded42202.js",
     "static/js/787.28cb0dcd.chunk.js": "/AerolineasCondor/static/js/787.28cb0dcd.chunk.js",
+    "static/media/previaje.png": "/AerolineasCondor/static/media/previaje.29dccb55526ac8dbebb3.png",
     "static/media/santa-jujuy.png": "/AerolineasCondor/static/media/santa-jujuy.15bcc998ff947a615054.png",
     "static/media/bs-salta.png": "/AerolineasCondor/static/media/bs-salta.81e14db88e897205dd5b.png",
+    "static/media/algo.png": "/AerolineasCondor/static/media/algo.81e3850f57db5c8e80bc.png",
     "static/media/bs-cordoba.png": "/AerolineasCondor/static/media/bs-cordoba.81e3850f57db5c8e80bc.png",
     "static/media/mendoza-tucuman.png": "/AerolineasCondor/static/media/mendoza-tucuman.863c998a3c8ab9448161.png",
     "static/media/error404.jpg": "/AerolineasCondor/static/media/error404.4c2b82cd37badd30254a.jpg",
     "static/media/login.png": "/AerolineasCondor/static/media/login.82ea06f2ab585c180e0e.png",
     "static/media/register.png": "/AerolineasCondor/static/media/register.ec933bb2165557ad51cc.png",
-    "static/media/imagen_fondo2.png": "/AerolineasCondor/static/media/imagen_fondo2.f016ba54623bc72f0aec.png",
+    "static/media/imagen_fondo2.png": "/AerolineasCondor/static/media/imagen_fondo2.5f245aeb77374374d735.png",
+    "static/media/clubcondor.png": "/AerolineasCondor/static/media/clubcondor.ea4280951e248605077b.png",
+    "static/media/contacto.png": "/AerolineasCondor/static/media/contacto.9ce7e1272a7d9a09907f.png",
     "static/media/salta.jpg": "/AerolineasCondor/static/media/salta.0473b028c7880d2e088f.jpg",
     "index.html": "/AerolineasCondor/index.html",
-    "main.570ee908.css.map": "/AerolineasCondor/static/css/main.570ee908.css.map",
-    "main.d4f40387.js.map": "/AerolineasCondor/static/js/main.d4f40387.js.map",
+    "main.6f727142.css.map": "/AerolineasCondor/static/css/main.6f727142.css.map",
+    "main.ded42202.js.map": "/AerolineasCondor/static/js/main.ded42202.js.map",
     "787.28cb0dcd.chunk.js.map": "/AerolineasCondor/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.570ee908.css",
-    "static/js/main.d4f40387.js"
+    "static/css/main.6f727142.css",
+    "static/js/main.ded42202.js"
   ]
 }
