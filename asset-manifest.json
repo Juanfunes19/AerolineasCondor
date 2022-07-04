@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AerolineasCondor/static/css/main.4e879a41.css",
-    "main.js": "/AerolineasCondor/static/js/main.682d026f.js",
+    "main.js": "/AerolineasCondor/static/js/main.833c18b7.js",
     "static/js/787.28cb0dcd.chunk.js": "/AerolineasCondor/static/js/787.28cb0dcd.chunk.js",
     "static/media/previaje.png": "/AerolineasCondor/static/media/previaje.29dccb55526ac8dbebb3.png",
     "static/media/santa-jujuy.png": "/AerolineasCondor/static/media/santa-jujuy.15bcc998ff947a615054.png",
@@ -18,11 +18,11 @@
     "static/media/salta.jpg": "/AerolineasCondor/static/media/salta.0473b028c7880d2e088f.jpg",
     "index.html": "/AerolineasCondor/index.html",
     "main.4e879a41.css.map": "/AerolineasCondor/static/css/main.4e879a41.css.map",
-    "main.682d026f.js.map": "/AerolineasCondor/static/js/main.682d026f.js.map",
+    "main.833c18b7.js.map": "/AerolineasCondor/static/js/main.833c18b7.js.map",
     "787.28cb0dcd.chunk.js.map": "/AerolineasCondor/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e879a41.css",
-    "static/js/main.682d026f.js"
+    "static/js/main.833c18b7.js"
   ]
 }
